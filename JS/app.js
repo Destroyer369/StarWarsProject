@@ -1,3 +1,6 @@
+
+// Function for getting API to table.
+
 async function fillTable(url, table){
     const tableHead = table.querySelector('thead');
     const tableBody = table.querySelector('tbody');
@@ -8,3 +11,4 @@ async function fillTable(url, table){
 }
 
 fillTable('https://swapi.dev/api/planets/',document.querySelector('table'));
+
